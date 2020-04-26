@@ -1,6 +1,6 @@
 import React from "react";
 /*import "bootstrap/dist/css/bootstrap.min.css"; */
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect} from "react-router-dom";
 import NavbarComp from "./components/NavbarComp.component";
 import Homepage from "./components/Homepage.component";
 import Viewpage from "./components/Viewpage.component";
@@ -12,7 +12,8 @@ function App() {
     <Router>
       <div className="container">
         <NavbarComp />
-        <br />
+        <br></br>
+        <Route exact path="/Lynz-Frontend" render={() => <Redirect to="/" />} />
         <Route path="/" exact component={Homepage} />
         <Route path="/busyness" component={Viewpage} />
         <Route path="/submit" component={Submitpage} />
