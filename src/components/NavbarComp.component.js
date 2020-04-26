@@ -26,7 +26,7 @@ class NavbarComp extends Component{
          </NavbarBrand>
             <Nav className="mr-auto">
               <NavItem>
-                <NavLink href="/busyness" className = "navbartext">View Busyness</NavLink>
+                <NavLink href="/busyness" className = "navbartext">View the Busyness</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/submit" className = "navbartext">Submit Live Busyness</NavLink>
