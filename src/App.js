@@ -13,7 +13,7 @@ function App() {
       <div className="container">
         <NavbarComp />
         <br></br>
-        <Route exact path="/Lynz-Frontend" render={() => <Redirect to="/" />} />
+        <Route path="/Lynz-Frontend" render={() => <Redirect to="/" />} />
         <Route path="/" exact component={Homepage} />
         <Route path="/busyness" component={Viewpage} />
         <Route path="/submit" component={Submitpage} />
