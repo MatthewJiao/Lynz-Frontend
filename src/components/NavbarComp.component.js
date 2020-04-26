@@ -26,10 +26,10 @@ class NavbarComp extends Component{
          </NavbarBrand>
             <Nav className="mr-auto">
               <NavItem>
-                <NavLink href="/busyness" className = "navbartext">View the Busyness</NavLink>
+                <NavLink href="/Lynz-Frontend/busyness" className = "navbartext">View Busyness</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/submit" className = "navbartext">Submit Live Busyness</NavLink>
+                <NavLink href="/Lynz-Frontend/submit" className = "navbartext">Submit Live Busyness</NavLink>
               </NavItem>
 
             </Nav>

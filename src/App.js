@@ -13,8 +13,8 @@ function App() {
       <div className="container">
         <NavbarComp />
         <Route path="/Lynz-Frontend" exact component={Homepage} />
-        <Route path="/busyness" exact component={Viewpage} />
-        <Route path="/submit" exact component={Submitpage} />
+        <Route path="/Lynz-Frontend/busyness" exact component={Viewpage} />
+        <Route path="/Lynz-Frontend/submit" exact component={Submitpage} />
       </div>
     </Router>
   );
